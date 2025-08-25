@@ -165,7 +165,6 @@ def update_readme():
         f.writelines(lines)
 
 download_registry()
-print(len(get_packages()))
 # build_packages_dict()
 G = build_graph()
 
